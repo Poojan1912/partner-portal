@@ -6,6 +6,7 @@ body {
 
 .nav {
   background-color: #ffffff !important;
+  box-shadow: 0 0 7px 0;
 }
 
 .navbar-nav li > a > button {
@@ -27,10 +28,10 @@ body {
   transition: all 0.5s;
 }
 
-.nav-link:hover,
+/* .nav-link:hover,
 :focus {
   color: #020202 !important;
-}
+} */
 
 .navbar .navbar-nav .nav-link::after {
   position: absolute;
@@ -64,7 +65,7 @@ body {
 .portal-display h1 {
   font-size: 42px;
   font-weight: 700;
-  padding-top: 83px;
+  padding-top: 150px;
   margin: 0;
 }
 
@@ -96,6 +97,7 @@ body {
   color: #1b2733;
   font-size: 40px;
   font-weight: 550;
+  padding-top: 80px;
 }
 
 .features .row {
@@ -112,6 +114,7 @@ body {
   border: 1px solid #b0c9ce;
   width: 90px;
   height: 90px;
+  box-shadow: 0px 0px 2px 0px #808080;
 }
 
 .features p {
@@ -274,13 +277,13 @@ footer .col-lg-6{
 
 @media only screen and (max-width: 992px) {
   .bg-img1{
-    height: 318px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .bg-img2{
-    height: 318px;
+    height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -332,12 +335,20 @@ footer .col-lg-6{
     font-size: 30px;
   }
 
+  .association-sponser-links .btn{
+    width: 110px;
+  }
+
   .portal-display h1 {
     font-size: 36px;
   }
 
   .portal-display h2 {
     font-size: 22px;
+  }
+
+  .features h1{
+    font-size: 35px;
   }
 
   .features p {
@@ -347,6 +358,10 @@ footer .col-lg-6{
   .news .row {
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .news h1{
+    font-size: 35px;
   }
 
   .partner-list .col {
